@@ -5,7 +5,7 @@ function verifyPasscode() {
 
     if (passcode === correctPasscode) {
         // 驗證成功，在新分頁中開啟指定網頁
-        window.open("https://ooopenlab.cc/preview/xBbpWeqHqkpuN5n4SbgZ", "_blank"); // 替換為你的目標網頁
+        window.open("https://ooopenlab.cc/quiz/xBbpWeqHqkpuN5n4SbgZ", "_blank"); // 替換為你的目標網頁
     } else {
         // 驗證失敗，顯示警告
         message.textContent = "不要亂猜!再好好整理重點吧!";
